@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.hero-image{
+    
+    background-image: url('images/cow.jpg');
+    background-image: cover;
+    background-position: 0 center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 49% 100%, 50% 100%, 0% 50%);
+  
+}
+.hero-image h2{
+    color: aqua;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
